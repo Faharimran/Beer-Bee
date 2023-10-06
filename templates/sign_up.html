@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Lilita+One&family=Lobster&family=Montserrat:wght@300&family=Oleo+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/second.css">
+  <link rel="stylesheet" type="/static/text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="backcolor">
+            <nav class="navbar_g">
+              <a href="second.html" class="header_logo"><label class="logo">Beer Bee</label></a>
+            </nav>
+            </div>
+    </header>
+    <div class="bodi">
+    <div class="signup-box">
+      <h2 class="sign_logo">Sign Up</h2>
+      <form>
+        <label class="form_sign">First Name</label>
+        <input type="text" placeholder="" />
+        <label class="form_sign">Last Name</label>
+        <input type="text" placeholder="" />
+        <label class="form_sign">Email</label>
+        <input type="email" placeholder="" />
+        <label class="form_sign">Password</label>
+        <input type="password" placeholder="" />
+        <label class="form_sign">Confirm Password</label>
+        <input type="password" placeholder="" />
+        <input type="button" value="Submit" />
+      <closeform></closeform></form>
+      <p class="bottem_sign">
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="/static/css/second.css">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+      <p class="para-2">
+        Already have an account? <a href="{% url 'login' %}">Login here</a>
+      </p>
+    </div>
+
+</div>
+  </body>
+</html>
+

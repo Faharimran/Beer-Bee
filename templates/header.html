@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Lilita+One&family=Lobster&family=Montserrat:wght@300&family=Oleo+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/second.css">
+    <link rel="stylesheet" type="/static/text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- code for the navigation bar -->
+    <header class="backcolor">
+        <nav class="navbar">
+            <label class="logo">Beer Bee</label>
+            <ul>
+                
+                <li><a class=" {active" href="{% url 'home' %}">Home</a></li>
+                <li><a class="action" href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'login' %}" target="_blank">Login</a></li>
+                <li><a href="{% url 'sign_up' %}" target="_blank">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
